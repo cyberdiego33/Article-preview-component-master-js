@@ -8,19 +8,22 @@
 </head>
 <body class="flex justify-center items-center min-h-screen bg-[#ecf2f8] py-10">
     
-    <div class="container w-[360px] bg-white rounded-[10px]">
-        <div class="image-div rounded-t-[10px]"><img class="w-full rounded-t-[10px] object-cover" src="images/drawers.jpg" alt="avatar-michelle"></div>
+    <div class="bg-white rounded-[10px] lg:flex ">
+
+        <div class="image-div rounded-t-[10px] lg:rounded-t-none lg:rounded-l-[10px] w-[360px] h-[240px] overflow-hidden lg:h-[308px] lg:w-[320px]">
+            <img class="w-full h-full object-cover object-left" src="images/drawers.jpg" alt="avatar-michelle">
+        </div>
 
 
-        <div class="text-content text-[#48556a]">
+        <div class="text-content text-[#48556a] w-[360px] lg:w-[480px]">
 
             <div class="top-content p-7 pb-0">
-                <p class="text-lg font-bold">Shift the overall look and feel by adding these wonderful touches to furniture in your home</p>
-                <p class="my-5 text-[#6d7f97]">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p>
+                <p class="text-lg font-bold lg:text-2xl">Shift the overall look and feel by adding these wonderful touches to furniture in your home</p>
+                <p class="my-5 text-[#6d7f97] lg:my-3">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p>
             </div>
             
 
-            <div class="bottom">
+            <div class="bottom relative">
 
                 <div class="flex items-center py-5 px-7 rounded-b-[10px]">
                     <div class="profile-pics w-10 rounded-full mr-5"><img class="object-cover rounded-full" src="images/avatar-michelle.jpg" alt="avatar-michelle"></div>
@@ -35,12 +38,12 @@
                     </div>
                 </div>
 
-                <div class="socials flex py-5 px-7 rounded-b-[10px] bg-[#48556a] hidden">
+                <div class="socials flex py-5 px-7 rounded-b-[10px] bg-[#48556a] absolute bottom-0 inset-x-0 lg:w-fit lg:rounded-[10px] lg:left-[300px] lg:bottom-[80px] lg:shadow-lg">
                     <p class="mr-4 text-[#9eafc2]">SHARE</p>
 
                     <div class="flex justify-between w-[125px]"><img src="images/icon-facebook.svg" alt="share-icon"><img src="images/icon-twitter.svg" alt="share-icon"><img src="images/icon-pinterest.svg" alt="share-icon"></div>
 
-                    <div class="share-icon bg-[#9eafc2] fill-white p-2 rounded-full ml-auto"><img src="images/icon-share.svg" alt="share-icon"></div>
+                    <div class="share-icon bg-[#9eafc2] fill-white p-2 rounded-full ml-auto lg:hidden"><img src="images/icon-share.svg" alt="share-icon"></div>
                 </div>
             </div>
             
